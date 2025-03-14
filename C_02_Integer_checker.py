@@ -1,5 +1,5 @@
 def integer_checker(question, low):
-    """A simple integer checker that has a minimum value and accepts <enter>"""
+    """A simple integer checker that has a minimum value and accepts xxx"""
 
     # Sets up an error message
     error = f"Please enter a whole number greater than or equal to {low}."
@@ -9,8 +9,8 @@ def integer_checker(question, low):
         # Asks the question
         answer = input(question)
 
-        # Allows <enter> as an answer
-        if answer == "":
+        # Allows xxx as an answer
+        if answer == "xxx":
             return answer
 
         # Checks that it can be an integer
